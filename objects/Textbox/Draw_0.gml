@@ -2,10 +2,9 @@
 // You can write your code in this editor
 draw_self();
 draw_set_color(c_black);
-if (Game_manager.textstate = "text"){
+
 	draw_text(x,y, global.text);
 
-}
 
 
 

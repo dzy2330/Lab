@@ -14,6 +14,7 @@ linesnumber = 0;
 enum State {
     Choice,
     Text,
+	Afterchocie,
 }
 playerstate = State.Text;
 textstate = "text";
@@ -28,14 +29,47 @@ roomnow = "rm_in_bed";
 //show_debug_message(global.text)
 
 function Textfunction(){
+	if (textstate = "text"){
 	Textbox.visible = true;
 	global.roomnow = global.map[$ roomnow];
 	global.lines = global.roomnow[$ "lines"];
 	global.words = global.lines[@ linesnumber];
 	global.text = global.words[$ "text"];
+if (!is_undefined(global.words[$ "goto"])) {
+
+    if (keyboard_check_pressed(vk_space)) {
+
+var roomName = global.words[$ "goto"];
+
+
+       
+        var roomIndex = asset_get_index(roomName);
+        room_goto(roomIndex);
+    }
+}
+		
+		
+		
+
 	if (keyboard_check_pressed(vk_space)) {
 	linesnumber += 1;
 }
+	}
+	
+	if ( textstate = "choice"){
+			  global.choiceline1 =  global.choice1[$ "lines"];
+	  global.choicetext1pre = global.choiceline1[@ 0];
+	 global.text = global.choicetext1pre[$ "text"];
+	 Textbox.visible = true;
+	 show_debug_message(global.text);
+	 if (keyboard_check_pressed(vk_space)) {
+	textstate = "text"
+	linesnumber += 1;
+}
+	}
+
+
+
     if (is_undefined(global.text)) {
 	Textbox.visible = false;
 	playerstate = State.Choice
@@ -48,14 +82,25 @@ function Choicefunction(){
 	 global.choices = global.words[$ "choices"];
 	 global.choice1 = global.choices[@ 0];
 	 global.choice2 = global.choices[@ 1];
-	 global.choiceline1 =  global.choice1[$ "lines"];
-	 global.choiceline2 =  global.choice2[$ "lines"];
-	 global.choicetext1pre = global.choiceline1[@ 0];
-	 global.choicetext2pre = global.choiceline2[@ 0];
-	 global.choicetext1 = global.choicetext1pre[$ "text"];
-	 global.choicetext2 = global.choicetext2pre[$ "text"];
+	 global.choicetext1 = global.choice1[$ "text"];
+	 global.choicetext2 = global.choice2[$ "text"];
+	 
+	 
+	 //global.choiceline1 =  global.choice1[$ "lines"];
+	 //global.choiceline2 =  global.choice2[$ "lines"];
+	 //global.choicetext1pre = global.choiceline1[@ 0];
+	 //global.choicetext2pre = global.choiceline2[@ 0];
+	 //global.choicetext1 = global.choicetext1pre[$ "text"];
+	 //global.choicetext2 = global.choicetext2pre[$ "text"];
 	 Textbox1.visible = true;
 	 Textbox2.visible = true;
+	 
+	 if (keyboard_check_pressed(ord("1"))) {
+	 Textbox1.visible = false;
+	 Textbox2.visible = false;
+	 playerstate = State.Text;
+
+}
 	
 	
 	

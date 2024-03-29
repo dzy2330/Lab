@@ -18,10 +18,14 @@ switch (playerstate)
     case State.Choice:
       Choicefunction();
     break;
+	
+	  case State.Afterchocie:
+      Choicefunction();
+    break;
 
     case State.Text:
        Textfunction();
-    break;
+	  break;
 }
 
 

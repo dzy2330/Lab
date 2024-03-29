@@ -5,6 +5,8 @@
   "resources": [
     {"id":{"name":"Textbox1","path":"objects/Textbox1/Textbox1.yy",},"order":3,},
     {"id":{"name":"Textbox2","path":"objects/Textbox2/Textbox2.yy",},"order":4,},
+    {"id":{"name":"Object6","path":"objects/Object6/Object6.yy",},"order":6,},
+    {"id":{"name":"rm_bedroom","path":"rooms/rm_bedroom/rm_bedroom.yy",},"order":1,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"Textbox","path":"objects/Textbox/Textbox.yy",},"order":5,},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},"order":0,},
@@ -34,6 +36,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_bedroom","path":"rooms/rm_bedroom/rm_bedroom.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
