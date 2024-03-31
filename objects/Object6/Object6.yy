@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Object6",
   "spriteId": {
-    "name": "Sprite1",
-    "path": "sprites/Sprite1/Sprite1.yy",
+    "name": "OIP_yXiCEQwiiG4XDwaWSv4MpwHaII",
+    "path": "sprites/OIP_yXiCEQwiiG4XDwaWSv4MpwHaII/OIP_yXiCEQwiiG4XDwaWSv4MpwHaII.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
