@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"OIP_yXiCEQwiiG4XDwaWSv4MpwHaII","path":"sprites/OIP_yXiCEQwiiG4XDwaWSv4MpwHaII/OIP_yXiCEQwiiG4XDwaWSv4MpwHaII.yy",},"order":1,},
     {"id":{"name":"Object68","path":"objects/Object68/Object68.yy",},"order":9,},
+    {"id":{"name":"Obj_singingfish","path":"objects/Obj_singingfish/Obj_singingfish.yy",},"order":17,},
     {"id":{"name":"Game_manager1","path":"objects/Game_manager1/Game_manager1.yy",},"order":8,},
     {"id":{"name":"_3dcb80553869338c887ff0656eb537d8","path":"sprites/_3dcb80553869338c887ff0656eb537d8/_3dcb80553869338c887ff0656eb537d8.yy",},"order":2,},
     {"id":{"name":"Textbox1","path":"objects/Textbox1/Textbox1.yy",},"order":3,},
@@ -12,6 +13,7 @@
     {"id":{"name":"R_57cb45d40313114b4b15d85af264d8c9","path":"sprites/R_57cb45d40313114b4b15d85af264d8c9/R_57cb45d40313114b4b15d85af264d8c9.yy",},"order":3,},
     {"id":{"name":"Object689","path":"objects/Object689/Object689.yy",},"order":10,},
     {"id":{"name":"Game_manager3","path":"objects/Game_manager3/Game_manager3.yy",},"order":12,},
+    {"id":{"name":"Obj_fish","path":"objects/Obj_fish/Obj_fish.yy",},"order":18,},
     {"id":{"name":"Car","path":"objects/Car/Car.yy",},"order":11,},
     {"id":{"name":"Textbox2","path":"objects/Textbox2/Textbox2.yy",},"order":4,},
     {"id":{"name":"Object68912","path":"objects/Object68912/Object68912.yy",},"order":13,},
@@ -21,6 +23,7 @@
     {"id":{"name":"Game_manager2","path":"objects/Game_manager2/Game_manager2.yy",},"order":7,},
     {"id":{"name":"Object6891213","path":"objects/Object6891213/Object6891213.yy",},"order":14,},
     {"id":{"name":"Obj_door","path":"objects/Obj_door/Obj_door.yy",},"order":15,},
+    {"id":{"name":"Obj_fridge","path":"objects/Obj_fridge/Obj_fridge.yy",},"order":19,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"Textbox","path":"objects/Textbox/Textbox.yy",},"order":5,},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},"order":0,},

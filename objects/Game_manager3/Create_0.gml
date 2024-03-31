@@ -1,7 +1,7 @@
 //currentRoom = "rm_in_bed";
 
 linesbefore = 0;
-global.met_voice = true;
+global.met_voice = false;
 
 
 
@@ -153,9 +153,26 @@ if ( isclick = true){
 	}
 	
 	global.words = global.lines[@ linesnumber];
+	if (variable_struct_exists(global.words, "choices")) {
+	playerstate = State.Choice;
+Textbox.visible = false;
+exit;
+}
 	if (variable_struct_exists(global.words, "if_true")) {
 show_debug_message("whatsdsd")
    if(variable_global_get(global.words[$ "if_true"]) == true){
+   global.lines = global.words[$ "lines"];
+   linesnumber = 0;
+     global.words = global.lines[@ linesnumber];
+
+   }else{
+	   linesnumber += 1;
+   }
+}
+		
+			if (variable_struct_exists(global.words, "if_false")) {
+show_debug_message("whatsdsd")
+   if(variable_global_get(global.words[$ "if_false"]) == false){
    global.lines = global.words[$ "lines"];
    linesnumber = 0;
      global.words = global.lines[@ linesnumber];
@@ -201,12 +218,16 @@ show_debug_message("wdwdwdwd")
 	 Textbox.visible = true;
 
 	 if (keyboard_check_pressed(vk_space)) {
-	textstate = "text"
+
 	linesnumber += 1;
 	 }
 }
 if (choosenumber == 2){
 			  global.choiceline2 =  global.choice2[$ "lines"];
+			  if (linesnumber=array_length( global.choiceline2)){
+				  textstate = "interact"
+				  exit;
+			  }
 	  global.choicetext2pre = global.choiceline2[@ 0];
 	 global.text = global.choicetext2pre[$ "text"];
 	 Textbox.visible = true;
