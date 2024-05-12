@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Object68912",
   "spriteId": {
-    "name": "R_57cb45d40313114b4b15d85af264d8c9",
-    "path": "sprites/R_57cb45d40313114b4b15d85af264d8c9/R_57cb45d40313114b4b15d85af264d8c9.yy",
+    "name": "OIP_MWpwOHGVg0gbQ_wuvosOSwHaHa",
+    "path": "sprites/OIP_MWpwOHGVg0gbQ_wuvosOSwHaHa/OIP_MWpwOHGVg0gbQ_wuvosOSwHaHa.yy",
   },
   "solid": false,
   "visible": true,

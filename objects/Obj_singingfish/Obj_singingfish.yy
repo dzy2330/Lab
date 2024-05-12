@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Obj_singingfish",
   "spriteId": {
-    "name": "Sprite1",
-    "path": "sprites/Sprite1/Sprite1.yy",
+    "name": "OIP_EempFsyC0YS8xEEgSR7YKAHaJv",
+    "path": "sprites/OIP_EempFsyC0YS8xEEgSR7YKAHaJv/OIP_EempFsyC0YS8xEEgSR7YKAHaJv.yy",
   },
   "solid": false,
   "visible": true,

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Obj_fish",
   "spriteId": {
-    "name": "Sprite1",
-    "path": "sprites/Sprite1/Sprite1.yy",
+    "name": "OIP_GmRw4r6XfW3cBPnCqpRtqAHaE0",
+    "path": "sprites/OIP_GmRw4r6XfW3cBPnCqpRtqAHaE0/OIP_GmRw4r6XfW3cBPnCqpRtqAHaE0.yy",
   },
   "solid": false,
   "visible": true,

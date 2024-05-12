@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_fridge",
+  "name": "Object19",
   "spriteId": {
-    "name": "OIP_J1z0dTqdWRmniIuW8KqctAHaIq",
-    "path": "sprites/OIP_J1z0dTqdWRmniIuW8KqctAHaIq/OIP_J1z0dTqdWRmniIuW8KqctAHaIq.yy",
+    "name": "OIP_q0OIGT5l82yXWeiuCwpYpAHaEK",
+    "path": "sprites/OIP_q0OIGT5l82yXWeiuCwpYpAHaEK/OIP_q0OIGT5l82yXWeiuCwpYpAHaEK.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
